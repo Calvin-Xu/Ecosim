@@ -24,8 +24,8 @@ def nature():
 
 # pond = Water(1000, 100, 120)
 # grassland = Grass(700, 40, 70)
-# herd = Sheep(100, 20, 21, 3)
-# pack = Wolf(10, 1, 4, 2)
+# herd = Sheep(100, 20, 25, 3)
+# pack = Wolf(10, 4, 5, 3)
 
 print("\n")
 print("-" * 43)
@@ -61,8 +61,8 @@ while True:
                     Example parameters:
                     pond: 1000 100 120
                     grassland 700 40 70
-                    herd 100 20 21 3
-                    pack 10 1 4 2
+                    herd 100 20 25 3
+                    pack 10 4 5 3
                     """))
         exit(0)
 
@@ -104,11 +104,12 @@ while True:
         print("-"* 25)
         print("\n")
 
-    logging.info(f"Ecosim simulation data ({time} iterations):")
-    logging.info("Water historical data: {}".format(water))
-    logging.info("Grass historical data: {}".format(grass))
-    logging.info("Sheep historical data: {}".format(sheep))
-    logging.info("Wolves historical data: {}".format(wolves))
+    logging.info(f"Ecosim simulation data ({time} iterations):\n")
+    logging.info(f"Parameters: Water {pond_set}, Grass {grassland_set}, Sheep {herd_set}, Wolves {pack_set}\n")
+    logging.info("Water historical data: {}\n\n".format(water))
+    logging.info("Grass historical data: {}\n\n".format(grass))
+    logging.info("Sheep historical data: {}\n\n".format(sheep))
+    logging.info("Wolves historical data: {}\n\n".format(wolves))
 
     print("Simulation complete. All data exported to data.log.\n")
     print("-" * 25)
