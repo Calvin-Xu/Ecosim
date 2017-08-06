@@ -4,7 +4,7 @@
 
 A simple simulator of the natural environment. I wrote this as a challenge for myself.
 
-![Simulation Data: 100 iterations](https://github.com/Calvin-Xu/Ecosim/blob/master/docs/Data_100_iterations.png)
+![Simulation Data: 100 iterations](https://github.com/Calvin-Xu/Ecosim/blob/master/docs/Data_100_iterations_2.png)
 
 
 ## Features:
