@@ -14,7 +14,7 @@ class Creatures(Resources):
         if resource.amount - self.rate >= 0:
             resource.amount -= self.rate
         else:
-            pass
+            resource.amount = 0
 
     def hunt(self, prey):
         if prey.amount >= 0:
